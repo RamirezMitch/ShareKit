@@ -269,4 +269,68 @@
     return nil;
 }
 
+// Sina Weibo
+
+
+// If you want to force use of old-style, for example to ensure
+// sina weibo accounts don't end up in the devices account store, set this to true.
+- (NSNumber*)forcePreSinaWeiboAccess
+{
+    return [NSNumber numberWithBool:false];
+}
+
+// Fill sina weibo App Key(Consumer Key) below and Do not forget to fill it on facebook developer ("URL Scheme Suffix").
+// Leave it blank unless you are sure of what you are doing.
+//
+// The CFBundleURLSchemes in your App-Info.plist should be "sinaweibosso." + App Key
+// Example:
+//    sinaWeiboConsumerKey = 1631351849
+//
+//    Your CFBundleURLSchemes entry: sinaweibosso.1631351849
+- (NSString*)sinaWeiboConsumerKey {
+	return @"1631351849";
+}
+
+- (NSString*)sinaWeiboConsumerSecret {
+	return @"9164c304b4e547b8cdbf024fc4534720";
+}
+
+// You need to set this if using OAuth (MUST be set and SAME AS "Callback Url" of "OAuth 2.0 Auth Settings" on Sina Weibo open plaform.
+// Url like this: http://open.weibo.com/apps/{app_key}/info/advanced
+- (NSString*)sinaWeiboCallbackUrl {
+	return @"http://icyleaf.com";
+}
+
+// To use xAuth, set to 1
+- (NSNumber*)sinaWeiboUseXAuth {
+	return [NSNumber numberWithInt:0];
+}
+
+// Enter your sina weibo screen name (Only for xAuth)
+- (NSString*)sinaWeiboScreenname {
+	return @"icyleaf";
+}
+
+//Enter your app's sina weibo account if you'd like to ask the user to follow it when logging in. (Only for xAuth)
+- (NSString*)sinaWeiboUserID {
+	return @"1708250715";
+}
+
+
+
+// RenRen
+- (NSString*)renrenAppId
+{
+    return @"134180";
+}
+
+- (NSString*)renrenConsumerKey
+{
+    return @"ff5fe131651842c7adbdc061f676dc88";
+}
+
+- (NSString*)renrenConsumerSecret
+{
+    return @"41d17695626d4c43b3572ce7f923b8a3";
+}
 @end

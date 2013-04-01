@@ -56,6 +56,14 @@
 				<string>db-n18olaziz6f8752</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>sinaweibosso.1631351849</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Sina Weibo</string>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>

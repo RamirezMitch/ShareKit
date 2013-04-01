@@ -9,7 +9,7 @@
 #import "ShareKitAppDelegate.h"
 #import "RootViewController.h"
 
-#import "SHKDropbox.h"
+//#import "SHKDropbox.h"
 #import "SHKGooglePlus.h"
 #import "SHKReadItLater.h"
 #import "SHKFacebook.h"
@@ -72,8 +72,8 @@
         return [SHKFacebook handleOpenURL:url];
     } else if ([scheme isEqualToString:@"com.yourcompany.sharekitdemo"]) {
         return [SHKGooglePlus handleURL:url sourceApplication:sourceApplication annotation:annotation];
-    } else if ([scheme hasPrefix:[NSString stringWithFormat:@"db-%@", SHKCONFIG(dropboxAppKey)]]) {
-        return [SHKDropbox handleOpenURL:url];
+   /* } else if ([scheme hasPrefix:[NSString stringWithFormat:@"db-%@", SHKCONFIG(dropboxAppKey)]]) {
+        return [SHKDropbox handleOpenURL:url];*/
     } else if ([[NSString stringWithFormat:@"en-%@", [[EvernoteSession sharedSession] consumerKey]] isEqualToString:[url scheme]]) {
         return [[EvernoteSession sharedSession] canHandleOpenURL:url];
     }

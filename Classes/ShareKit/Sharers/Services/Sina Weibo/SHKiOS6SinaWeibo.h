@@ -1,9 +1,10 @@
 //
-//  SHKSinaWeibo.h
+//  SHKiOS6SinaWeibo.h
 //  ShareKit
 //
-//  Created by icyleaf on 12-03-16.
+//  Created by icyleaf on 12-10-23.
 //  Copyright 2012 icyleaf.com. All rights reserved.
+//
 
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -26,13 +27,9 @@
 //
 //
 
-#import <Foundation/Foundation.h>
-#import "SHKOAuthSharer.h"
-#import "SHKFormControllerLargeTextField.h"
-#import "SinaWeibo.h"
-#import "SinaWeiboRequest.h"
 
-@interface SHKSinaWeibo : SHKOAuthSharer <SHKFormControllerLargeTextFieldDelegate, SinaWeiboDelegate, SinaWeiboRequestDelegate>
+#import "SHKSharer.h"
 
-+ (BOOL)handleOpenURL:(NSURL*)url;
+@interface SHKiOS6SinaWeibo : SHKSharer
+
 @end

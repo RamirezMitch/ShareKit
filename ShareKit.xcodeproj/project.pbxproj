@@ -28,6 +28,88 @@
 		456BADAB169107D1005B3077 /* SHKGooglePlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 456BADA9169107D1005B3077 /* SHKGooglePlus.h */; };
 		456BADAC169107D1005B3077 /* SHKGooglePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 456BADAA169107D1005B3077 /* SHKGooglePlus.m */; };
 		456BADAD1691095B005B3077 /* libGoogle Plus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4503EBC0169104470057294C /* libGoogle Plus.a */; };
+		48D76B3E17095E94000E123F /* ROError.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76AFE17095E94000E123F /* ROError.h */; };
+		48D76B3F17095E94000E123F /* ROError.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76AFF17095E94000E123F /* ROError.m */; };
+		48D76B4017095E94000E123F /* Renren.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B0017095E94000E123F /* Renren.h */; };
+		48D76B4117095E94000E123F /* Renren.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B0117095E94000E123F /* Renren.m */; };
+		48D76B4217095E94000E123F /* ROAlbumsInfoRequestParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B0317095E94000E123F /* ROAlbumsInfoRequestParam.h */; };
+		48D76B4317095E94000E123F /* ROAlbumsInfoRequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B0417095E94000E123F /* ROAlbumsInfoRequestParam.m */; };
+		48D76B4417095E94000E123F /* ROCreateAlbumRequestParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B0517095E94000E123F /* ROCreateAlbumRequestParam.h */; };
+		48D76B4517095E94000E123F /* ROCreateAlbumRequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B0617095E94000E123F /* ROCreateAlbumRequestParam.m */; };
+		48D76B4617095E94000E123F /* ROGetFriendsInfoRequestParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B0717095E94000E123F /* ROGetFriendsInfoRequestParam.h */; };
+		48D76B4717095E94000E123F /* ROGetFriendsInfoRequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B0817095E94000E123F /* ROGetFriendsInfoRequestParam.m */; };
+		48D76B4817095E94000E123F /* ROGetFriendsRequestParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B0917095E94000E123F /* ROGetFriendsRequestParam.h */; };
+		48D76B4917095E94000E123F /* ROGetFriendsRequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B0A17095E94000E123F /* ROGetFriendsRequestParam.m */; };
+		48D76B4A17095E94000E123F /* ROPasswordFlowRequestParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B0B17095E94000E123F /* ROPasswordFlowRequestParam.h */; };
+		48D76B4B17095E94000E123F /* ROPasswordFlowRequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B0C17095E94000E123F /* ROPasswordFlowRequestParam.m */; };
+		48D76B4C17095E94000E123F /* ROPublishPhotoRequestParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B0D17095E94000E123F /* ROPublishPhotoRequestParam.h */; };
+		48D76B4D17095E94000E123F /* ROPublishPhotoRequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B0E17095E94000E123F /* ROPublishPhotoRequestParam.m */; };
+		48D76B4E17095E94000E123F /* RORequestParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B0F17095E94000E123F /* RORequestParam.h */; };
+		48D76B4F17095E94000E123F /* RORequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B1017095E94000E123F /* RORequestParam.m */; };
+		48D76B5017095E94000E123F /* ROUserInfoRequestParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B1117095E94000E123F /* ROUserInfoRequestParam.h */; };
+		48D76B5117095E94000E123F /* ROUserInfoRequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B1217095E94000E123F /* ROUserInfoRequestParam.m */; };
+		48D76B5217095E94000E123F /* ROAlbumResponseltem.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B1417095E94000E123F /* ROAlbumResponseltem.h */; };
+		48D76B5317095E94000E123F /* ROAlbumResponseltem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B1517095E94000E123F /* ROAlbumResponseltem.m */; };
+		48D76B5417095E94000E123F /* ROCreateAlbumResponseItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B1617095E94000E123F /* ROCreateAlbumResponseItem.h */; };
+		48D76B5517095E94000E123F /* ROCreateAlbumResponseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B1717095E94000E123F /* ROCreateAlbumResponseItem.m */; };
+		48D76B5617095E94000E123F /* ROFriendResponseItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B1817095E94000E123F /* ROFriendResponseItem.h */; };
+		48D76B5717095E94000E123F /* ROFriendResponseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B1917095E94000E123F /* ROFriendResponseItem.m */; };
+		48D76B5817095E94000E123F /* ROPublishPhotoResponseItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B1A17095E94000E123F /* ROPublishPhotoResponseItem.h */; };
+		48D76B5917095E94000E123F /* ROPublishPhotoResponseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B1B17095E94000E123F /* ROPublishPhotoResponseItem.m */; };
+		48D76B5A17095E94000E123F /* ROResponseItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B1C17095E94000E123F /* ROResponseItem.h */; };
+		48D76B5B17095E94000E123F /* ROResponseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B1D17095E94000E123F /* ROResponseItem.m */; };
+		48D76B5C17095E94000E123F /* ROUserResponseItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B1E17095E94000E123F /* ROUserResponseItem.h */; };
+		48D76B5D17095E94000E123F /* ROUserResponseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B1F17095E94000E123F /* ROUserResponseItem.m */; };
+		48D76B5E17095E94000E123F /* ROConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B2017095E94000E123F /* ROConnect.h */; };
+		48D76B5F17095E94000E123F /* RODialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B2117095E94000E123F /* RODialog.h */; };
+		48D76B6017095E94000E123F /* RODialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B2217095E94000E123F /* RODialog.m */; };
+		48D76B6117095E94000E123F /* RORequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B2317095E94000E123F /* RORequest.h */; };
+		48D76B6217095E94000E123F /* RORequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B2417095E94000E123F /* RORequest.m */; };
+		48D76B6317095E94000E123F /* ROResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B2517095E94000E123F /* ROResponse.h */; };
+		48D76B6417095E94000E123F /* ROResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B2617095E94000E123F /* ROResponse.m */; };
+		48D76B6517095E94000E123F /* RODialogModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B2917095E94000E123F /* RODialogModel.h */; };
+		48D76B6617095E94000E123F /* RODialogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B2A17095E94000E123F /* RODialogModel.m */; };
+		48D76B6717095E94000E123F /* RODialogView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B2B17095E94000E123F /* RODialogView.h */; };
+		48D76B6817095E94000E123F /* RODialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B2C17095E94000E123F /* RODialogView.m */; };
+		48D76B6917095E94000E123F /* ROPublishPhotoDialogModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B2E17095E94000E123F /* ROPublishPhotoDialogModel.h */; };
+		48D76B6A17095E94000E123F /* ROPublishPhotoDialogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B2F17095E94000E123F /* ROPublishPhotoDialogModel.m */; };
+		48D76B6B17095E94000E123F /* ROPublishPhotoInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B3017095E94000E123F /* ROPublishPhotoInternal.h */; };
+		48D76B6C17095E94000E123F /* ROPublishPhotoInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B3117095E94000E123F /* ROPublishPhotoInternal.m */; };
+		48D76B6D17095E94000E123F /* ROUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B3317095E94000E123F /* ROUtility.h */; };
+		48D76B6E17095E94000E123F /* ROUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B3417095E94000E123F /* ROUtility.m */; };
+		48D76B6F17095E94000E123F /* ROCloseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B3617095E94000E123F /* ROCloseButton.h */; };
+		48D76B7017095E94000E123F /* ROCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B3717095E94000E123F /* ROCloseButton.m */; };
+		48D76B7117095E94000E123F /* ROGlobalStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B3817095E94000E123F /* ROGlobalStyle.h */; };
+		48D76B7217095E94000E123F /* ROGlobalStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B3917095E94000E123F /* ROGlobalStyle.m */; };
+		48D76B7317095E94000E123F /* ROImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B3A17095E94000E123F /* ROImageView.h */; };
+		48D76B7417095E94000E123F /* ROImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B3B17095E94000E123F /* ROImageView.m */; };
+		48D76B8D17095F14000E123F /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B8217095F14000E123F /* JSONKit.h */; };
+		48D76B8E17095F14000E123F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B8317095F14000E123F /* JSONKit.m */; };
+		48D76B8F17095F14000E123F /* SinaWeibo.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B8617095F14000E123F /* SinaWeibo.h */; };
+		48D76B9017095F14000E123F /* SinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B8717095F14000E123F /* SinaWeibo.m */; };
+		48D76B9117095F14000E123F /* SinaWeiboAuthorizeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B8817095F14000E123F /* SinaWeiboAuthorizeView.h */; };
+		48D76B9217095F14000E123F /* SinaWeiboAuthorizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B8917095F14000E123F /* SinaWeiboAuthorizeView.m */; };
+		48D76B9317095F14000E123F /* SinaWeiboConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B8A17095F14000E123F /* SinaWeiboConstants.h */; };
+		48D76B9417095F14000E123F /* SinaWeiboRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B8B17095F14000E123F /* SinaWeiboRequest.h */; };
+		48D76B9517095F14000E123F /* SinaWeiboRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B8C17095F14000E123F /* SinaWeiboRequest.m */; };
+		48D76B9617095F48000E123F /* RRConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48D76B2717095E94000E123F /* RRConnect.bundle */; };
+		48D76B9717095F50000E123F /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48D76B8517095F14000E123F /* SinaWeibo.bundle */; };
+		48D76B9A170960F6000E123F /* SHKiOS6SinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B7917095F01000E123F /* SHKiOS6SinaWeibo.m */; };
+		48D76B9B170960F6000E123F /* SHKSinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B7B17095F01000E123F /* SHKSinaWeibo.m */; };
+		48D76B9C17096119000E123F /* SHKiOS6SinaWeibo.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B7817095F01000E123F /* SHKiOS6SinaWeibo.h */; };
+		48D76BAB170961D6000E123F /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B9E170961D6000E123F /* JSON.h */; };
+		48D76BAC170961D6000E123F /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B9F170961D6000E123F /* NSObject+SBJSON.h */; };
+		48D76BAD170961D6000E123F /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76BA0170961D6000E123F /* NSObject+SBJSON.m */; };
+		48D76BAE170961D6000E123F /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76BA1170961D6000E123F /* NSString+SBJSON.h */; };
+		48D76BAF170961D6000E123F /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76BA2170961D6000E123F /* NSString+SBJSON.m */; };
+		48D76BB0170961D6000E123F /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76BA3170961D6000E123F /* SBJSON.h */; };
+		48D76BB1170961D6000E123F /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76BA4170961D6000E123F /* SBJSON.m */; };
+		48D76BB2170961D6000E123F /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76BA5170961D6000E123F /* SBJsonBase.h */; };
+		48D76BB3170961D6000E123F /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76BA6170961D6000E123F /* SBJsonBase.m */; };
+		48D76BB4170961D6000E123F /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76BA7170961D6000E123F /* SBJsonParser.h */; };
+		48D76BB5170961D6000E123F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76BA8170961D6000E123F /* SBJsonParser.m */; };
+		48D76BB6170961D6000E123F /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76BA9170961D6000E123F /* SBJsonWriter.h */; };
+		48D76BB7170961D6000E123F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76BAA170961D6000E123F /* SBJsonWriter.m */; };
 		7A0F91D5156BA2A0009CB40A /* SHKCustomFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536B111DBE3B9004A1712 /* SHKCustomFormFieldCell.m */; };
 		7A0F91D6156BA2A0009CB40A /* SHKCustomFormControllerLargeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2BD53153431390042EB86 /* SHKCustomFormControllerLargeTextField.m */; };
 		7A0F91D9156BA2A0009CB40A /* SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536A711DBE3B9004A1712 /* SHK.m */; };
@@ -242,7 +324,6 @@
 		7AC28F27165A21C2006D7441 /* libTumblr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED86162F0C4D009D46E4 /* libTumblr.a */; };
 		7AC28F28165A21C2006D7441 /* libTwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1AFD3A160E14340086B98A /* libTwitter.a */; };
 		7AC28F29165A21C2006D7441 /* libVKontakte.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED1B162F08A3009D46E4 /* libVKontakte.a */; };
-		7AC2A3A116597F9C0089ABE8 /* SHKSinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC2A38D16597CCC0089ABE8 /* SHKSinaWeibo.m */; };
 		7AC677B316D9038E003DB0D7 /* ExampleAccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC677B216D9038E003DB0D7 /* ExampleAccountsViewController.m */; };
 		7AD9861D16E78D730052A5B8 /* NSData+SaveItemAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD9861B16E78D730052A5B8 /* NSData+SaveItemAttachment.h */; };
 		7AD9861E16E78D730052A5B8 /* NSData+SaveItemAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9861C16E78D730052A5B8 /* NSData+SaveItemAttachment.m */; };
@@ -280,7 +361,6 @@
 		CE857E3C16771F7C005003DA /* SHKVKontakteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE857E3816771D78005003DA /* SHKVKontakteRequest.m */; };
 		DE334C2216F3339300FF692B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		DE334C2D16F3339A00FF692B /* SHKDropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = DE334C0616F3319800FF692B /* SHKDropbox.m */; };
-		DE334C2E16F333A800FF692B /* libDropbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE334C2116F3339300FF692B /* libDropbox.a */; };
 		DE334C4016F334E200FF692B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE334C3E16F334A600FF692B /* QuartzCore.framework */; };
 		DE334CD016F34BDD00FF692B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		DE334CDB16F34C8E00FF692B /* DBAccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DE334C8A16F3361200FF692B /* DBAccountInfo.m */; };
@@ -316,7 +396,6 @@
 		DE334CFA16F34C8E00FF692B /* NSString+URLEscapingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE334C5116F335A200FF692B /* NSString+URLEscapingAdditions.m */; };
 		DE334CFB16F34C8E00FF692B /* NSURL+MPURLParameterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE334C5216F335A200FF692B /* NSURL+MPURLParameterAdditions.m */; };
 		DE334CFC16F34C8E00FF692B /* NSURLResponse+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DE334C5316F335A200FF692B /* NSURLResponse+Encoding.m */; };
-		DE4D0CA716F34D2B0056AAE7 /* libDropbox SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE334CCF16F34BDD00FF692B /* libDropbox SDK.a */; };
 		DE4D0CAA16F34F7C0056AAE7 /* MPOAuthSignatureParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D0CA916F34F7C0056AAE7 /* MPOAuthSignatureParameter.m */; };
 		E153775B16AF0A760015726B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E153775A16AF0A760015726B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
@@ -602,21 +681,7 @@
 			remoteGlobalIDString = B9CBC519152537270036AA71;
 			remoteInfo = FacebookSDKTests;
 		};
-		DE334C2F16F333B000FF692B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE334C2016F3339300FF692B;
-			remoteInfo = Dropbox;
-		};
 		DE4D0CA316F34D170056AAE7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE334CCE16F34BDD00FF692B;
-			remoteInfo = DropboxSDK;
-		};
-		DE4D0CA516F34D220056AAE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
@@ -888,6 +953,91 @@
 		456BAD6716910761005B3077 /* GTMObjC2Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMObjC2Runtime.m; sourceTree = "<group>"; };
 		456BADA9169107D1005B3077 /* SHKGooglePlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHKGooglePlus.h; path = "Google Plus/SHKGooglePlus.h"; sourceTree = "<group>"; };
 		456BADAA169107D1005B3077 /* SHKGooglePlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHKGooglePlus.m; path = "Google Plus/SHKGooglePlus.m"; sourceTree = "<group>"; };
+		48D76AFE17095E94000E123F /* ROError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROError.h; sourceTree = "<group>"; };
+		48D76AFF17095E94000E123F /* ROError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROError.m; sourceTree = "<group>"; };
+		48D76B0017095E94000E123F /* Renren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renren.h; sourceTree = "<group>"; };
+		48D76B0117095E94000E123F /* Renren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Renren.m; sourceTree = "<group>"; };
+		48D76B0317095E94000E123F /* ROAlbumsInfoRequestParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROAlbumsInfoRequestParam.h; sourceTree = "<group>"; };
+		48D76B0417095E94000E123F /* ROAlbumsInfoRequestParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROAlbumsInfoRequestParam.m; sourceTree = "<group>"; };
+		48D76B0517095E94000E123F /* ROCreateAlbumRequestParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROCreateAlbumRequestParam.h; sourceTree = "<group>"; };
+		48D76B0617095E94000E123F /* ROCreateAlbumRequestParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROCreateAlbumRequestParam.m; sourceTree = "<group>"; };
+		48D76B0717095E94000E123F /* ROGetFriendsInfoRequestParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROGetFriendsInfoRequestParam.h; sourceTree = "<group>"; };
+		48D76B0817095E94000E123F /* ROGetFriendsInfoRequestParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROGetFriendsInfoRequestParam.m; sourceTree = "<group>"; };
+		48D76B0917095E94000E123F /* ROGetFriendsRequestParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROGetFriendsRequestParam.h; sourceTree = "<group>"; };
+		48D76B0A17095E94000E123F /* ROGetFriendsRequestParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROGetFriendsRequestParam.m; sourceTree = "<group>"; };
+		48D76B0B17095E94000E123F /* ROPasswordFlowRequestParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROPasswordFlowRequestParam.h; sourceTree = "<group>"; };
+		48D76B0C17095E94000E123F /* ROPasswordFlowRequestParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROPasswordFlowRequestParam.m; sourceTree = "<group>"; };
+		48D76B0D17095E94000E123F /* ROPublishPhotoRequestParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROPublishPhotoRequestParam.h; sourceTree = "<group>"; };
+		48D76B0E17095E94000E123F /* ROPublishPhotoRequestParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROPublishPhotoRequestParam.m; sourceTree = "<group>"; };
+		48D76B0F17095E94000E123F /* RORequestParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RORequestParam.h; sourceTree = "<group>"; };
+		48D76B1017095E94000E123F /* RORequestParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RORequestParam.m; sourceTree = "<group>"; };
+		48D76B1117095E94000E123F /* ROUserInfoRequestParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROUserInfoRequestParam.h; sourceTree = "<group>"; };
+		48D76B1217095E94000E123F /* ROUserInfoRequestParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROUserInfoRequestParam.m; sourceTree = "<group>"; };
+		48D76B1417095E94000E123F /* ROAlbumResponseltem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROAlbumResponseltem.h; sourceTree = "<group>"; };
+		48D76B1517095E94000E123F /* ROAlbumResponseltem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROAlbumResponseltem.m; sourceTree = "<group>"; };
+		48D76B1617095E94000E123F /* ROCreateAlbumResponseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROCreateAlbumResponseItem.h; sourceTree = "<group>"; };
+		48D76B1717095E94000E123F /* ROCreateAlbumResponseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROCreateAlbumResponseItem.m; sourceTree = "<group>"; };
+		48D76B1817095E94000E123F /* ROFriendResponseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROFriendResponseItem.h; sourceTree = "<group>"; };
+		48D76B1917095E94000E123F /* ROFriendResponseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROFriendResponseItem.m; sourceTree = "<group>"; };
+		48D76B1A17095E94000E123F /* ROPublishPhotoResponseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROPublishPhotoResponseItem.h; sourceTree = "<group>"; };
+		48D76B1B17095E94000E123F /* ROPublishPhotoResponseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROPublishPhotoResponseItem.m; sourceTree = "<group>"; };
+		48D76B1C17095E94000E123F /* ROResponseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROResponseItem.h; sourceTree = "<group>"; };
+		48D76B1D17095E94000E123F /* ROResponseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROResponseItem.m; sourceTree = "<group>"; };
+		48D76B1E17095E94000E123F /* ROUserResponseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROUserResponseItem.h; sourceTree = "<group>"; };
+		48D76B1F17095E94000E123F /* ROUserResponseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROUserResponseItem.m; sourceTree = "<group>"; };
+		48D76B2017095E94000E123F /* ROConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROConnect.h; sourceTree = "<group>"; };
+		48D76B2117095E94000E123F /* RODialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RODialog.h; sourceTree = "<group>"; };
+		48D76B2217095E94000E123F /* RODialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RODialog.m; sourceTree = "<group>"; };
+		48D76B2317095E94000E123F /* RORequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RORequest.h; sourceTree = "<group>"; };
+		48D76B2417095E94000E123F /* RORequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RORequest.m; sourceTree = "<group>"; };
+		48D76B2517095E94000E123F /* ROResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROResponse.h; sourceTree = "<group>"; };
+		48D76B2617095E94000E123F /* ROResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROResponse.m; sourceTree = "<group>"; };
+		48D76B2717095E94000E123F /* RRConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RRConnect.bundle; sourceTree = "<group>"; };
+		48D76B2917095E94000E123F /* RODialogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RODialogModel.h; sourceTree = "<group>"; };
+		48D76B2A17095E94000E123F /* RODialogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RODialogModel.m; sourceTree = "<group>"; };
+		48D76B2B17095E94000E123F /* RODialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RODialogView.h; sourceTree = "<group>"; };
+		48D76B2C17095E94000E123F /* RODialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RODialogView.m; sourceTree = "<group>"; };
+		48D76B2E17095E94000E123F /* ROPublishPhotoDialogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROPublishPhotoDialogModel.h; sourceTree = "<group>"; };
+		48D76B2F17095E94000E123F /* ROPublishPhotoDialogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROPublishPhotoDialogModel.m; sourceTree = "<group>"; };
+		48D76B3017095E94000E123F /* ROPublishPhotoInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROPublishPhotoInternal.h; sourceTree = "<group>"; };
+		48D76B3117095E94000E123F /* ROPublishPhotoInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROPublishPhotoInternal.m; sourceTree = "<group>"; };
+		48D76B3317095E94000E123F /* ROUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROUtility.h; sourceTree = "<group>"; };
+		48D76B3417095E94000E123F /* ROUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROUtility.m; sourceTree = "<group>"; };
+		48D76B3617095E94000E123F /* ROCloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROCloseButton.h; sourceTree = "<group>"; };
+		48D76B3717095E94000E123F /* ROCloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROCloseButton.m; sourceTree = "<group>"; };
+		48D76B3817095E94000E123F /* ROGlobalStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROGlobalStyle.h; sourceTree = "<group>"; };
+		48D76B3917095E94000E123F /* ROGlobalStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROGlobalStyle.m; sourceTree = "<group>"; };
+		48D76B3A17095E94000E123F /* ROImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROImageView.h; sourceTree = "<group>"; };
+		48D76B3B17095E94000E123F /* ROImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROImageView.m; sourceTree = "<group>"; };
+		48D76B3C17095E94000E123F /* SHKRenRen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKRenRen.h; sourceTree = "<group>"; };
+		48D76B3D17095E94000E123F /* SHKRenRen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKRenRen.m; sourceTree = "<group>"; };
+		48D76B7817095F01000E123F /* SHKiOS6SinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKiOS6SinaWeibo.h; sourceTree = "<group>"; };
+		48D76B7917095F01000E123F /* SHKiOS6SinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKiOS6SinaWeibo.m; sourceTree = "<group>"; };
+		48D76B7A17095F01000E123F /* SHKSinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKSinaWeibo.h; sourceTree = "<group>"; };
+		48D76B7B17095F01000E123F /* SHKSinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKSinaWeibo.m; sourceTree = "<group>"; };
+		48D76B8217095F14000E123F /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		48D76B8317095F14000E123F /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		48D76B8517095F14000E123F /* SinaWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SinaWeibo.bundle; sourceTree = "<group>"; };
+		48D76B8617095F14000E123F /* SinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeibo.h; sourceTree = "<group>"; };
+		48D76B8717095F14000E123F /* SinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeibo.m; sourceTree = "<group>"; };
+		48D76B8817095F14000E123F /* SinaWeiboAuthorizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboAuthorizeView.h; sourceTree = "<group>"; };
+		48D76B8917095F14000E123F /* SinaWeiboAuthorizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboAuthorizeView.m; sourceTree = "<group>"; };
+		48D76B8A17095F14000E123F /* SinaWeiboConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboConstants.h; sourceTree = "<group>"; };
+		48D76B8B17095F14000E123F /* SinaWeiboRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboRequest.h; sourceTree = "<group>"; };
+		48D76B8C17095F14000E123F /* SinaWeiboRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboRequest.m; sourceTree = "<group>"; };
+		48D76B9E170961D6000E123F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		48D76B9F170961D6000E123F /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		48D76BA0170961D6000E123F /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		48D76BA1170961D6000E123F /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		48D76BA2170961D6000E123F /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		48D76BA3170961D6000E123F /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		48D76BA4170961D6000E123F /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		48D76BA5170961D6000E123F /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		48D76BA6170961D6000E123F /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		48D76BA7170961D6000E123F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		48D76BA8170961D6000E123F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		48D76BA9170961D6000E123F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		48D76BAA170961D6000E123F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		7A0F91CD156B9FF2009CB40A /* SHKDelicious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHKDelicious.h; path = Delicious/SHKDelicious.h; sourceTree = "<group>"; };
 		7A0F91CE156B9FF2009CB40A /* SHKDelicious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = SHKDelicious.m; path = Delicious/SHKDelicious.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		7A0F9246156BA2A0009CB40A /* libShareKitCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShareKitCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -971,8 +1121,6 @@
 		7ABCDBAF157757D1003BBFFD /* SHKFormFieldCellOptionPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKFormFieldCellOptionPicker.m; sourceTree = "<group>"; };
 		7ABCEFF816E3F7D300F26720 /* demo_video_share.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = demo_video_share.mov; path = Classes/Example/demo_video_share.mov; sourceTree = "<group>"; };
 		7ABCEFFB16E3FDB200F26720 /* demo_audio_share.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = demo_audio_share.mp3; path = Classes/Example/demo_audio_share.mp3; sourceTree = "<group>"; };
-		7AC2A38C16597CCC0089ABE8 /* SHKSinaWeibo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHKSinaWeibo.h; sourceTree = "<group>"; };
-		7AC2A38D16597CCC0089ABE8 /* SHKSinaWeibo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHKSinaWeibo.m; sourceTree = "<group>"; };
 		7AC2A3A016597F4C0089ABE8 /* libSina Weibo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSina Weibo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC677B116D9038E003DB0D7 /* ExampleAccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleAccountsViewController.h; path = Example/ExampleAccountsViewController.h; sourceTree = "<group>"; };
 		7AC677B216D9038E003DB0D7 /* ExampleAccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleAccountsViewController.m; path = Example/ExampleAccountsViewController.m; sourceTree = "<group>"; };
@@ -1263,8 +1411,6 @@
 			files = (
 				7AA83C1F1705E90C009C483A /* libfacebook_ios_sdk.a in Frameworks */,
 				7AA83BFD1705E526009C483A /* libGoogle Plus SDK.a in Frameworks */,
-				DE4D0CA716F34D2B0056AAE7 /* libDropbox SDK.a in Frameworks */,
-				DE334C2E16F333A800FF692B /* libDropbox.a in Frameworks */,
 				7AAE8CA916EB965200429C51 /* libPlurk.a in Frameworks */,
 				7A203D0C16EB7E2300421995 /* libHatena.a in Frameworks */,
 				456BADAD1691095B005B3077 /* libGoogle Plus.a in Frameworks */,
@@ -1994,6 +2140,7 @@
 		43A536C011DBE3B9004A1712 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				48D76AFA17095E94000E123F /* Renren */,
 				DE334C0316F3315D00FF692B /* Dropbox */,
 				7AAE8C9916EB94F200429C51 /* Plurk */,
 				7A203CFE16EB775400421995 /* Hatena */,
@@ -2246,6 +2393,198 @@
 			path = GTLPlus;
 			sourceTree = "<group>";
 		};
+		48D76AFA17095E94000E123F /* Renren */ = {
+			isa = PBXGroup;
+			children = (
+				48D76B9D170961D6000E123F /* JSON */,
+				48D76AFB17095E94000E123F /* RRConnect */,
+				48D76B3C17095E94000E123F /* SHKRenRen.h */,
+				48D76B3D17095E94000E123F /* SHKRenRen.m */,
+			);
+			path = Renren;
+			sourceTree = "<group>";
+		};
+		48D76AFB17095E94000E123F /* RRConnect */ = {
+			isa = PBXGroup;
+			children = (
+				48D76AFC17095E94000E123F /* Renren */,
+			);
+			path = RRConnect;
+			sourceTree = "<group>";
+		};
+		48D76AFC17095E94000E123F /* Renren */ = {
+			isa = PBXGroup;
+			children = (
+				48D76AFD17095E94000E123F /* Error */,
+				48D76B0017095E94000E123F /* Renren.h */,
+				48D76B0117095E94000E123F /* Renren.m */,
+				48D76B0217095E94000E123F /* RequestParam */,
+				48D76B1317095E94000E123F /* ResponseItem */,
+				48D76B2017095E94000E123F /* ROConnect.h */,
+				48D76B2117095E94000E123F /* RODialog.h */,
+				48D76B2217095E94000E123F /* RODialog.m */,
+				48D76B2317095E94000E123F /* RORequest.h */,
+				48D76B2417095E94000E123F /* RORequest.m */,
+				48D76B2517095E94000E123F /* ROResponse.h */,
+				48D76B2617095E94000E123F /* ROResponse.m */,
+				48D76B2717095E94000E123F /* RRConnect.bundle */,
+				48D76B2817095E94000E123F /* Sample UI */,
+				48D76B3217095E94000E123F /* Tools */,
+			);
+			path = Renren;
+			sourceTree = "<group>";
+		};
+		48D76AFD17095E94000E123F /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				48D76AFE17095E94000E123F /* ROError.h */,
+				48D76AFF17095E94000E123F /* ROError.m */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		48D76B0217095E94000E123F /* RequestParam */ = {
+			isa = PBXGroup;
+			children = (
+				48D76B0317095E94000E123F /* ROAlbumsInfoRequestParam.h */,
+				48D76B0417095E94000E123F /* ROAlbumsInfoRequestParam.m */,
+				48D76B0517095E94000E123F /* ROCreateAlbumRequestParam.h */,
+				48D76B0617095E94000E123F /* ROCreateAlbumRequestParam.m */,
+				48D76B0717095E94000E123F /* ROGetFriendsInfoRequestParam.h */,
+				48D76B0817095E94000E123F /* ROGetFriendsInfoRequestParam.m */,
+				48D76B0917095E94000E123F /* ROGetFriendsRequestParam.h */,
+				48D76B0A17095E94000E123F /* ROGetFriendsRequestParam.m */,
+				48D76B0B17095E94000E123F /* ROPasswordFlowRequestParam.h */,
+				48D76B0C17095E94000E123F /* ROPasswordFlowRequestParam.m */,
+				48D76B0D17095E94000E123F /* ROPublishPhotoRequestParam.h */,
+				48D76B0E17095E94000E123F /* ROPublishPhotoRequestParam.m */,
+				48D76B0F17095E94000E123F /* RORequestParam.h */,
+				48D76B1017095E94000E123F /* RORequestParam.m */,
+				48D76B1117095E94000E123F /* ROUserInfoRequestParam.h */,
+				48D76B1217095E94000E123F /* ROUserInfoRequestParam.m */,
+			);
+			path = RequestParam;
+			sourceTree = "<group>";
+		};
+		48D76B1317095E94000E123F /* ResponseItem */ = {
+			isa = PBXGroup;
+			children = (
+				48D76B1417095E94000E123F /* ROAlbumResponseltem.h */,
+				48D76B1517095E94000E123F /* ROAlbumResponseltem.m */,
+				48D76B1617095E94000E123F /* ROCreateAlbumResponseItem.h */,
+				48D76B1717095E94000E123F /* ROCreateAlbumResponseItem.m */,
+				48D76B1817095E94000E123F /* ROFriendResponseItem.h */,
+				48D76B1917095E94000E123F /* ROFriendResponseItem.m */,
+				48D76B1A17095E94000E123F /* ROPublishPhotoResponseItem.h */,
+				48D76B1B17095E94000E123F /* ROPublishPhotoResponseItem.m */,
+				48D76B1C17095E94000E123F /* ROResponseItem.h */,
+				48D76B1D17095E94000E123F /* ROResponseItem.m */,
+				48D76B1E17095E94000E123F /* ROUserResponseItem.h */,
+				48D76B1F17095E94000E123F /* ROUserResponseItem.m */,
+			);
+			path = ResponseItem;
+			sourceTree = "<group>";
+		};
+		48D76B2817095E94000E123F /* Sample UI */ = {
+			isa = PBXGroup;
+			children = (
+				48D76B2917095E94000E123F /* RODialogModel.h */,
+				48D76B2A17095E94000E123F /* RODialogModel.m */,
+				48D76B2B17095E94000E123F /* RODialogView.h */,
+				48D76B2C17095E94000E123F /* RODialogView.m */,
+				48D76B2D17095E94000E123F /* UploadPhotoDialog */,
+			);
+			path = "Sample UI";
+			sourceTree = "<group>";
+		};
+		48D76B2D17095E94000E123F /* UploadPhotoDialog */ = {
+			isa = PBXGroup;
+			children = (
+				48D76B2E17095E94000E123F /* ROPublishPhotoDialogModel.h */,
+				48D76B2F17095E94000E123F /* ROPublishPhotoDialogModel.m */,
+				48D76B3017095E94000E123F /* ROPublishPhotoInternal.h */,
+				48D76B3117095E94000E123F /* ROPublishPhotoInternal.m */,
+			);
+			path = UploadPhotoDialog;
+			sourceTree = "<group>";
+		};
+		48D76B3217095E94000E123F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				48D76B3317095E94000E123F /* ROUtility.h */,
+				48D76B3417095E94000E123F /* ROUtility.m */,
+				48D76B3517095E94000E123F /* UI */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		48D76B3517095E94000E123F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				48D76B3617095E94000E123F /* ROCloseButton.h */,
+				48D76B3717095E94000E123F /* ROCloseButton.m */,
+				48D76B3817095E94000E123F /* ROGlobalStyle.h */,
+				48D76B3917095E94000E123F /* ROGlobalStyle.m */,
+				48D76B3A17095E94000E123F /* ROImageView.h */,
+				48D76B3B17095E94000E123F /* ROImageView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		48D76B8017095F14000E123F /* sinaweibo_ios_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				48D76B8117095F14000E123F /* JSONKit */,
+				48D76B8417095F14000E123F /* SinaWeibo */,
+			);
+			name = sinaweibo_ios_sdk;
+			path = "Submodules/sinaweibo_ios_sdk/sinaweibo_ios_sdk&demo/sinaweibo_ios_sdk";
+			sourceTree = SOURCE_ROOT;
+		};
+		48D76B8117095F14000E123F /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				48D76B8217095F14000E123F /* JSONKit.h */,
+				48D76B8317095F14000E123F /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		48D76B8417095F14000E123F /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				48D76B8517095F14000E123F /* SinaWeibo.bundle */,
+				48D76B8617095F14000E123F /* SinaWeibo.h */,
+				48D76B8717095F14000E123F /* SinaWeibo.m */,
+				48D76B8817095F14000E123F /* SinaWeiboAuthorizeView.h */,
+				48D76B8917095F14000E123F /* SinaWeiboAuthorizeView.m */,
+				48D76B8A17095F14000E123F /* SinaWeiboConstants.h */,
+				48D76B8B17095F14000E123F /* SinaWeiboRequest.h */,
+				48D76B8C17095F14000E123F /* SinaWeiboRequest.m */,
+			);
+			path = SinaWeibo;
+			sourceTree = "<group>";
+		};
+		48D76B9D170961D6000E123F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				48D76B9E170961D6000E123F /* JSON.h */,
+				48D76B9F170961D6000E123F /* NSObject+SBJSON.h */,
+				48D76BA0170961D6000E123F /* NSObject+SBJSON.m */,
+				48D76BA1170961D6000E123F /* NSString+SBJSON.h */,
+				48D76BA2170961D6000E123F /* NSString+SBJSON.m */,
+				48D76BA3170961D6000E123F /* SBJSON.h */,
+				48D76BA4170961D6000E123F /* SBJSON.m */,
+				48D76BA5170961D6000E123F /* SBJsonBase.h */,
+				48D76BA6170961D6000E123F /* SBJsonBase.m */,
+				48D76BA7170961D6000E123F /* SBJsonParser.h */,
+				48D76BA8170961D6000E123F /* SBJsonParser.m */,
+				48D76BA9170961D6000E123F /* SBJsonWriter.h */,
+				48D76BAA170961D6000E123F /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		7A0F91CB156B9FCE009CB40A /* Delicious */ = {
 			isa = PBXGroup;
 			children = (
@@ -2351,8 +2690,11 @@
 		7AC2A38B16597C680089ABE8 /* Sina Weibo */ = {
 			isa = PBXGroup;
 			children = (
-				7AC2A38C16597CCC0089ABE8 /* SHKSinaWeibo.h */,
-				7AC2A38D16597CCC0089ABE8 /* SHKSinaWeibo.m */,
+				48D76B8017095F14000E123F /* sinaweibo_ios_sdk */,
+				48D76B7817095F01000E123F /* SHKiOS6SinaWeibo.h */,
+				48D76B7917095F01000E123F /* SHKiOS6SinaWeibo.m */,
+				48D76B7A17095F01000E123F /* SHKSinaWeibo.h */,
+				48D76B7B17095F01000E123F /* SHKSinaWeibo.m */,
 			);
 			path = "Sina Weibo";
 			sourceTree = "<group>";
@@ -2748,6 +3090,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE8DC7C165B549B004D99D2 /* DummyLibFile.h in Headers */,
+				48D76B3E17095E94000E123F /* ROError.h in Headers */,
+				48D76B4017095E94000E123F /* Renren.h in Headers */,
+				48D76B4217095E94000E123F /* ROAlbumsInfoRequestParam.h in Headers */,
+				48D76B4417095E94000E123F /* ROCreateAlbumRequestParam.h in Headers */,
+				48D76B4617095E94000E123F /* ROGetFriendsInfoRequestParam.h in Headers */,
+				48D76B4817095E94000E123F /* ROGetFriendsRequestParam.h in Headers */,
+				48D76B4A17095E94000E123F /* ROPasswordFlowRequestParam.h in Headers */,
+				48D76B4C17095E94000E123F /* ROPublishPhotoRequestParam.h in Headers */,
+				48D76B4E17095E94000E123F /* RORequestParam.h in Headers */,
+				48D76B5017095E94000E123F /* ROUserInfoRequestParam.h in Headers */,
+				48D76B5217095E94000E123F /* ROAlbumResponseltem.h in Headers */,
+				48D76B5417095E94000E123F /* ROCreateAlbumResponseItem.h in Headers */,
+				48D76B5617095E94000E123F /* ROFriendResponseItem.h in Headers */,
+				48D76B5817095E94000E123F /* ROPublishPhotoResponseItem.h in Headers */,
+				48D76B5A17095E94000E123F /* ROResponseItem.h in Headers */,
+				48D76B5C17095E94000E123F /* ROUserResponseItem.h in Headers */,
+				48D76B5E17095E94000E123F /* ROConnect.h in Headers */,
+				48D76B5F17095E94000E123F /* RODialog.h in Headers */,
+				48D76B6117095E94000E123F /* RORequest.h in Headers */,
+				48D76B6317095E94000E123F /* ROResponse.h in Headers */,
+				48D76B6517095E94000E123F /* RODialogModel.h in Headers */,
+				48D76B6717095E94000E123F /* RODialogView.h in Headers */,
+				48D76B6917095E94000E123F /* ROPublishPhotoDialogModel.h in Headers */,
+				48D76B6B17095E94000E123F /* ROPublishPhotoInternal.h in Headers */,
+				48D76B6D17095E94000E123F /* ROUtility.h in Headers */,
+				48D76B6F17095E94000E123F /* ROCloseButton.h in Headers */,
+				48D76B7117095E94000E123F /* ROGlobalStyle.h in Headers */,
+				48D76B7317095E94000E123F /* ROImageView.h in Headers */,
+				48D76BAB170961D6000E123F /* JSON.h in Headers */,
+				48D76BAC170961D6000E123F /* NSObject+SBJSON.h in Headers */,
+				48D76BAE170961D6000E123F /* NSString+SBJSON.h in Headers */,
+				48D76BB0170961D6000E123F /* SBJSON.h in Headers */,
+				48D76BB2170961D6000E123F /* SBJsonBase.h in Headers */,
+				48D76BB4170961D6000E123F /* SBJsonParser.h in Headers */,
+				48D76BB6170961D6000E123F /* SBJsonWriter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2755,6 +3132,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D76B9C17096119000E123F /* SHKiOS6SinaWeibo.h in Headers */,
+				48D76B8D17095F14000E123F /* JSONKit.h in Headers */,
+				48D76B8F17095F14000E123F /* SinaWeibo.h in Headers */,
+				48D76B9117095F14000E123F /* SinaWeiboAuthorizeView.h in Headers */,
+				48D76B9317095F14000E123F /* SinaWeiboConstants.h in Headers */,
+				48D76B9417095F14000E123F /* SinaWeiboRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3161,8 +3544,6 @@
 			dependencies = (
 				7AA83C1E1705E8FC009C483A /* PBXTargetDependency */,
 				7AA83BFC1705E4FF009C483A /* PBXTargetDependency */,
-				DE4D0CA616F34D220056AAE7 /* PBXTargetDependency */,
-				DE334C3016F333B000FF692B /* PBXTargetDependency */,
 				7AAE8CA816EB964900429C51 /* PBXTargetDependency */,
 				7A203D0E16EB7F5100421995 /* PBXTargetDependency */,
 				7A49DBC616BC199F004B7E78 /* PBXTargetDependency */,
@@ -3751,6 +4132,8 @@
 			files = (
 				7A2882491553CC61007DC379 /* ShareKit.bundle in Resources */,
 				7A2882571553D7E1007DC379 /* SHKSharers.plist in Resources */,
+				48D76B9617095F48000E123F /* RRConnect.bundle in Resources */,
+				48D76B9717095F50000E123F /* SinaWeibo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3988,6 +4371,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE8DC7D165B549B004D99D2 /* DummyLibFile.m in Sources */,
+				48D76B3F17095E94000E123F /* ROError.m in Sources */,
+				48D76B4117095E94000E123F /* Renren.m in Sources */,
+				48D76B4317095E94000E123F /* ROAlbumsInfoRequestParam.m in Sources */,
+				48D76B4517095E94000E123F /* ROCreateAlbumRequestParam.m in Sources */,
+				48D76B4717095E94000E123F /* ROGetFriendsInfoRequestParam.m in Sources */,
+				48D76B4917095E94000E123F /* ROGetFriendsRequestParam.m in Sources */,
+				48D76B4B17095E94000E123F /* ROPasswordFlowRequestParam.m in Sources */,
+				48D76B4D17095E94000E123F /* ROPublishPhotoRequestParam.m in Sources */,
+				48D76B4F17095E94000E123F /* RORequestParam.m in Sources */,
+				48D76B5117095E94000E123F /* ROUserInfoRequestParam.m in Sources */,
+				48D76B5317095E94000E123F /* ROAlbumResponseltem.m in Sources */,
+				48D76B5517095E94000E123F /* ROCreateAlbumResponseItem.m in Sources */,
+				48D76B5717095E94000E123F /* ROFriendResponseItem.m in Sources */,
+				48D76B5917095E94000E123F /* ROPublishPhotoResponseItem.m in Sources */,
+				48D76B5B17095E94000E123F /* ROResponseItem.m in Sources */,
+				48D76B5D17095E94000E123F /* ROUserResponseItem.m in Sources */,
+				48D76B6017095E94000E123F /* RODialog.m in Sources */,
+				48D76B6217095E94000E123F /* RORequest.m in Sources */,
+				48D76B6417095E94000E123F /* ROResponse.m in Sources */,
+				48D76B6617095E94000E123F /* RODialogModel.m in Sources */,
+				48D76B6817095E94000E123F /* RODialogView.m in Sources */,
+				48D76B6A17095E94000E123F /* ROPublishPhotoDialogModel.m in Sources */,
+				48D76B6C17095E94000E123F /* ROPublishPhotoInternal.m in Sources */,
+				48D76B6E17095E94000E123F /* ROUtility.m in Sources */,
+				48D76B7017095E94000E123F /* ROCloseButton.m in Sources */,
+				48D76B7217095E94000E123F /* ROGlobalStyle.m in Sources */,
+				48D76B7417095E94000E123F /* ROImageView.m in Sources */,
+				48D76BAD170961D6000E123F /* NSObject+SBJSON.m in Sources */,
+				48D76BAF170961D6000E123F /* NSString+SBJSON.m in Sources */,
+				48D76BB1170961D6000E123F /* SBJSON.m in Sources */,
+				48D76BB3170961D6000E123F /* SBJsonBase.m in Sources */,
+				48D76BB5170961D6000E123F /* SBJsonParser.m in Sources */,
+				48D76BB7170961D6000E123F /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4002,7 +4418,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AC2A3A116597F9C0089ABE8 /* SHKSinaWeibo.m in Sources */,
+				48D76B9A170960F6000E123F /* SHKiOS6SinaWeibo.m in Sources */,
+				48D76B9B170960F6000E123F /* SHKSinaWeibo.m in Sources */,
+				48D76B8E17095F14000E123F /* JSONKit.m in Sources */,
+				48D76B9017095F14000E123F /* SinaWeibo.m in Sources */,
+				48D76B9217095F14000E123F /* SinaWeiboAuthorizeView.m in Sources */,
+				48D76B9517095F14000E123F /* SinaWeiboRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4425,20 +4846,10 @@
 			target = 7AC2A38E16597F4C0089ABE8 /* Sina Weibo */;
 			targetProxy = 7AC28F09165A1EE7006D7441 /* PBXContainerItemProxy */;
 		};
-		DE334C3016F333B000FF692B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE334C2016F3339300FF692B /* Dropbox */;
-			targetProxy = DE334C2F16F333B000FF692B /* PBXContainerItemProxy */;
-		};
 		DE4D0CA416F34D170056AAE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DE334CCE16F34BDD00FF692B /* Dropbox SDK */;
 			targetProxy = DE4D0CA316F34D170056AAE7 /* PBXContainerItemProxy */;
-		};
-		DE4D0CA616F34D220056AAE7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE334CCE16F34BDD00FF692B /* Dropbox SDK */;
-			targetProxy = DE4D0CA516F34D220056AAE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

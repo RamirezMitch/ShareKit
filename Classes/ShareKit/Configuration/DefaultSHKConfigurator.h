@@ -52,6 +52,16 @@
 - (NSArray*)defaultFavoriteFileSharers __attribute__((deprecated("use defaultFavoriteSharersForMimeType: instead")));
 - (NSArray*)defaultFavoriteSharersForMimeType:(NSString *)mimeType;
 - (NSString*)vkontakteAppId;
+- (NSNumber*)forcePreSinaWeiboAccess;
+- (NSString*)sinaWeiboConsumerKey;
+- (NSString*)sinaWeiboConsumerSecret;
+- (NSString*)sinaWeiboCallbackUrl;
+- (NSNumber*)sinaWeiboUseXAuth;
+- (NSString*)sinaWeiboScreenname;
+- (NSString*)sinaWeiboUserID;
+- (NSString*)renrenAppId;
+- (NSString*)renrenConsumerKey;
+- (NSString*)renrenConsumerSecret;
 - (NSString*)facebookAppId;
 - (NSString*)facebookLocalAppId;
 - (NSArray*)facebookWritePermissions;
