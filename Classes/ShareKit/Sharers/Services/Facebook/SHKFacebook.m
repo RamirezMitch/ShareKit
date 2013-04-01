@@ -172,14 +172,32 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
     
     if (error) {
 		[FBSession.activeSession closeAndClearTokenInformation];
-        UIAlertView *alertView = [[UIAlertView alloc]
-                                  initWithTitle:@"Error"
-                                  message:error.localizedDescription
-                                  delegate:nil
-                                  cancelButtonTitle:@"OK"
-                                  otherButtonTitles:nil];
-        [alertView show];
-        [alertView release];
+        
+        if(error.code==2 || error.code==5){
+            ACAccountStore *accountStore = [[ACAccountStore alloc] init];
+            ACAccountType *facebookAccountType = [accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierFacebook];
+            NSArray *accounts = [accountStore accountsWithAccountType:facebookAccountType];
+            if(accounts!=0){
+                UIAlertView *alertView = [[UIAlertView alloc]
+                                          initWithTitle:@"Check your Setting"
+                                          message:@"Please enable sharing on your Facebook Settings"
+                                          delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+                [alertView show];
+                [alertView release];
+            }
+            
+        }else{
+            UIAlertView *alertView = [[UIAlertView alloc]
+                                      initWithTitle:@"Error"
+                                      message:error.localizedDescription
+                                      delegate:nil
+                                      cancelButtonTitle:@"OK"
+                                      otherButtonTitles:nil];
+            [alertView show];
+            [alertView release];
+        }
     }
 	if (authingSHKFacebook == self) {
 		authingSHKFacebook = nil;
@@ -561,7 +579,7 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
 
 - (void) doSHKShow
 {
-    if (self.item.shareType == SHKShareTypeText || self.item.shareType == SHKShareTypeImage || self.item.shareType == SHKShareTypeURL)
+    if (self.item.shareType == SHKShareTypeText || self.item.shareType == SHKShareTypeImage) // || self.item.shareType == SHKShareTypeURL
     {
         [self showFacebookForm];
     }
