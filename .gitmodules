@@ -16,3 +16,6 @@
 [submodule "Submodules/dropbox-sdk-ios"]
 	path = Submodules/dropbox-sdk-ios
 	url = https://github.com/dropbox-sdk-mirror/dropbox-sdk-ios.git
+[submodule "Submodules/sinaweibo_ios_sdk"]
+	path = Submodules/sinaweibo_ios_sdk
+	url = https://github.com/mobileresearch/weibo_ios_sdk_sso-oauth.git
