@@ -92,8 +92,6 @@
 		48D76B9317095F14000E123F /* SinaWeiboConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B8A17095F14000E123F /* SinaWeiboConstants.h */; };
 		48D76B9417095F14000E123F /* SinaWeiboRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B8B17095F14000E123F /* SinaWeiboRequest.h */; };
 		48D76B9517095F14000E123F /* SinaWeiboRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B8C17095F14000E123F /* SinaWeiboRequest.m */; };
-		48D76B9617095F48000E123F /* RRConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48D76B2717095E94000E123F /* RRConnect.bundle */; };
-		48D76B9717095F50000E123F /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48D76B8517095F14000E123F /* SinaWeibo.bundle */; };
 		48D76B9A170960F6000E123F /* SHKiOS6SinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B7917095F01000E123F /* SHKiOS6SinaWeibo.m */; };
 		48D76B9B170960F6000E123F /* SHKSinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B7B17095F01000E123F /* SHKSinaWeibo.m */; };
 		48D76B9C17096119000E123F /* SHKiOS6SinaWeibo.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B7817095F01000E123F /* SHKiOS6SinaWeibo.h */; };
@@ -110,6 +108,14 @@
 		48D76BB5170961D6000E123F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76BA8170961D6000E123F /* SBJsonParser.m */; };
 		48D76BB6170961D6000E123F /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D76BA9170961D6000E123F /* SBJsonWriter.h */; };
 		48D76BB7170961D6000E123F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76BAA170961D6000E123F /* SBJsonWriter.m */; };
+		48D76BD3170978E5000E123F /* SHKSharers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43A536AC11DBE3B9004A1712 /* SHKSharers.plist */; };
+		48D76BD817097AC7000E123F /* ShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AB5360F1552E26800171BCE /* ShareKit.bundle */; };
+		48D76BD917097AD5000E123F /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB5342E1552AADD00171BCE /* libShareKit.a */; };
+		48D76BDA17097D67000E123F /* SHKRenRen.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D76B3D17095E94000E123F /* SHKRenRen.m */; };
+		48D76BDB17097D87000E123F /* SHKRenRen.m in Headers */ = {isa = PBXBuildFile; fileRef = 48D76B3D17095E94000E123F /* SHKRenRen.m */; };
+		48D76BDC17097E71000E123F /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6C09F316122ED90023EE48 /* libfacebook_ios_sdk.a */; };
+		48D76BE117097ECB000E123F /* libGoogle Plus SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA83BF91705E355009C483A /* libGoogle Plus SDK.a */; };
+		48D76BE217097ED0000E123F /* libPlurk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAE8CA516EB960500429C51 /* libPlurk.a */; };
 		7A0F91D5156BA2A0009CB40A /* SHKCustomFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536B111DBE3B9004A1712 /* SHKCustomFormFieldCell.m */; };
 		7A0F91D6156BA2A0009CB40A /* SHKCustomFormControllerLargeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2BD53153431390042EB86 /* SHKCustomFormControllerLargeTextField.m */; };
 		7A0F91D9156BA2A0009CB40A /* SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536A711DBE3B9004A1712 /* SHK.m */; };
@@ -186,9 +192,6 @@
 		7A203D0B16EB7E0100421995 /* SHKHatena.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A203D0116EB776D00421995 /* SHKHatena.m */; };
 		7A203D0C16EB7E2300421995 /* libHatena.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A203D0A16EB7DA200421995 /* libHatena.a */; };
 		7A2882491553CC61007DC379 /* ShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90E765A51418F2480026B656 /* ShareKit.bundle */; };
-		7A2882571553D7E1007DC379 /* SHKSharers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43A536AC11DBE3B9004A1712 /* SHKSharers.plist */; };
-		7A28825D1553FFB4007DC379 /* ShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AB5360F1552E26800171BCE /* ShareKit.bundle */; };
-		7A28825E15540175007DC379 /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB5342E1552AADD00171BCE /* libShareKit.a */; };
 		7A2B025614A342D800E68A4C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2B025514A342D800E68A4C /* CFNetwork.framework */; };
 		7A3082B416DA0721005AF769 /* SHKTumblr.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3082B216D9E255005AF769 /* SHKTumblr.m */; };
 		7A3C61EE147520B700C47D14 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3C61ED147520B700C47D14 /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -272,8 +275,6 @@
 		7AA83BF21705E355009C483A /* GTMOAuth2SignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 456BAD6116910761005B3077 /* GTMOAuth2SignIn.h */; };
 		7AA83BF31705E355009C483A /* GTMOAuth2ViewControllerTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 456BAD6316910761005B3077 /* GTMOAuth2ViewControllerTouch.h */; };
 		7AA83BF41705E355009C483A /* GTMObjC2Runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 456BAD6616910761005B3077 /* GTMObjC2Runtime.h */; };
-		7AA83BFD1705E526009C483A /* libGoogle Plus SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA83BF91705E355009C483A /* libGoogle Plus SDK.a */; };
-		7AA83C1F1705E90C009C483A /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6C09F316122ED90023EE48 /* libfacebook_ios_sdk.a */; };
 		7AA83C42170637CC009C483A /* ENAFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA83C40170637CC009C483A /* ENAFURLConnectionOperation.h */; };
 		7AA83C43170637CC009C483A /* ENAFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA83C41170637CC009C483A /* ENAFURLConnectionOperation.m */; };
 		7AA83C4817063828009C483A /* ENGCOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA83C4417063828009C483A /* ENGCOAuth.h */; };
@@ -288,7 +289,6 @@
 		7AA83C5817063926009C483A /* NSDate+EDAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA83C5617063926009C483A /* NSDate+EDAMAdditions.m */; };
 		7AA83C5A17063994009C483A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA83C5917063994009C483A /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		7AAE8CA616EB961700429C51 /* SHKPlurk.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE8C9C16EB950800429C51 /* SHKPlurk.m */; };
-		7AAE8CA916EB965200429C51 /* libPlurk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAE8CA516EB960500429C51 /* libPlurk.a */; };
 		7AB8051115AC7BCC004FB430 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FBAEE15934A0D0024F825 /* GTMNSString+HTML.m */; };
 		7ABCDBAC1577528B003BBFFD /* SHKFormFieldCellSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABCDBA81577528B003BBFFD /* SHKFormFieldCellSwitch.m */; };
 		7ABCDBB3157757D1003BBFFD /* SHKFormFieldCellOptionPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABCDBAF157757D1003BBFFD /* SHKFormFieldCellOptionPicker.m */; };
@@ -408,6 +408,41 @@
 			remoteGlobalIDString = 4503EBB8169104470057294C;
 			remoteInfo = "Google Plus";
 		};
+		48D76BD417097AB3000E123F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB5342D1552AADD00171BCE;
+			remoteInfo = "Static Library";
+		};
+		48D76BD617097AB3000E123F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB5360E1552E26800171BCE;
+			remoteInfo = "Resource Bundle";
+		};
+		48D76BDD17097E7A000E123F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6C09EA16122ED90023EE48 /* facebook-ios-sdk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "facebook-ios-sdk";
+		};
+		48D76BDF17097EC3000E123F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA83BAA1705E355009C483A;
+			remoteInfo = "Google Plus SDK";
+		};
+		48D76BE317097ED8000E123F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAE8C9D16EB960500429C51;
+			remoteInfo = Plurk;
+		};
 		7A203D0D16EB7F5100421995 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -415,47 +450,12 @@
 			remoteGlobalIDString = 7A203D0216EB7DA200421995;
 			remoteInfo = Hatena;
 		};
-		7A2882591553FF96007DC379 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AB5342D1552AADD00171BCE;
-			remoteInfo = "Static Library";
-		};
-		7A28825B1553FF9A007DC379 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AB5360E1552E26800171BCE;
-			remoteInfo = "Resource Bundle";
-		};
 		7A49DBC516BC199F004B7E78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7A49DBBB16BC193E004B7E78;
 			remoteInfo = Readability;
-		};
-		7AA83BFB1705E4FF009C483A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AA83BAA1705E355009C483A;
-			remoteInfo = "Google Plus SDK";
-		};
-		7AA83C1D1705E8FC009C483A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA6C09EA16122ED90023EE48 /* facebook-ios-sdk.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = "facebook-ios-sdk";
-		};
-		7AAE8CA716EB964900429C51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AAE8C9D16EB960500429C51;
-			remoteInfo = Plurk;
 		};
 		7AC28ECB165A1EE7006D7441 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1294,13 +1294,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D76BD917097AD5000E123F /* libShareKit.a in Frameworks */,
 				7AA83C5A17063994009C483A /* StoreKit.framework in Frameworks */,
 				DE334C4016F334E200FF692B /* QuartzCore.framework in Frameworks */,
 				7AF9AAD9165B6C0400F92215 /* libsqlite3.0.dylib in Frameworks */,
 				7A4BC546165A0A2000460B01 /* AdSupport.framework in Frameworks */,
 				7A4BC545165A09DD00460B01 /* Social.framework in Frameworks */,
 				7A4BC544165A09CB00460B01 /* Accounts.framework in Frameworks */,
-				7A28825E15540175007DC379 /* libShareKit.a in Frameworks */,
 				7A2B025614A342D800E68A4C /* CFNetwork.framework in Frameworks */,
 				7A3C61EE147520B700C47D14 /* Twitter.framework in Frameworks */,
 				C0D3077B147BDC8100E74EA3 /* CoreLocation.framework in Frameworks */,
@@ -1409,9 +1409,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AA83C1F1705E90C009C483A /* libfacebook_ios_sdk.a in Frameworks */,
-				7AA83BFD1705E526009C483A /* libGoogle Plus SDK.a in Frameworks */,
-				7AAE8CA916EB965200429C51 /* libPlurk.a in Frameworks */,
+				48D76BE217097ED0000E123F /* libPlurk.a in Frameworks */,
+				48D76BE117097ECB000E123F /* libGoogle Plus SDK.a in Frameworks */,
+				48D76BDC17097E71000E123F /* libfacebook_ios_sdk.a in Frameworks */,
 				7A203D0C16EB7E2300421995 /* libHatena.a in Frameworks */,
 				456BADAD1691095B005B3077 /* libGoogle Plus.a in Frameworks */,
 				7A49DBC716BC19BD004B7E78 /* libReadability.a in Frameworks */,
@@ -3089,6 +3089,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D76BDB17097D87000E123F /* SHKRenRen.m in Headers */,
 				7AE8DC7C165B549B004D99D2 /* DummyLibFile.h in Headers */,
 				48D76B3E17095E94000E123F /* ROError.h in Headers */,
 				48D76B4017095E94000E123F /* Renren.h in Headers */,
@@ -3302,8 +3303,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				7A28825C1553FF9A007DC379 /* PBXTargetDependency */,
-				7A28825A1553FF96007DC379 /* PBXTargetDependency */,
+				48D76BD517097AB3000E123F /* PBXTargetDependency */,
+				48D76BD717097AB3000E123F /* PBXTargetDependency */,
 			);
 			name = "Demo App";
 			productName = ShareKit;
@@ -3542,9 +3543,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				7AA83C1E1705E8FC009C483A /* PBXTargetDependency */,
-				7AA83BFC1705E4FF009C483A /* PBXTargetDependency */,
-				7AAE8CA816EB964900429C51 /* PBXTargetDependency */,
+				48D76BE417097ED8000E123F /* PBXTargetDependency */,
+				48D76BE017097EC3000E123F /* PBXTargetDependency */,
+				48D76BDE17097E7A000E123F /* PBXTargetDependency */,
 				7A203D0E16EB7F5100421995 /* PBXTargetDependency */,
 				7A49DBC616BC199F004B7E78 /* PBXTargetDependency */,
 				7AC28ECC165A1EE7006D7441 /* PBXTargetDependency */,
@@ -4114,7 +4115,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A28825D1553FFB4007DC379 /* ShareKit.bundle in Resources */,
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				43A5382811DBE480004A1712 /* example.pdf in Resources */,
@@ -4123,6 +4123,7 @@
 				E153775B16AF0A760015726B /* Default-568h@2x.png in Resources */,
 				7ABCEFF916E3F7D300F26720 /* demo_video_share.mov in Resources */,
 				7ABCEFFC16E3FDB200F26720 /* demo_audio_share.mp3 in Resources */,
+				48D76BD817097AC7000E123F /* ShareKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4130,10 +4131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D76BD3170978E5000E123F /* SHKSharers.plist in Resources */,
 				7A2882491553CC61007DC379 /* ShareKit.bundle in Resources */,
-				7A2882571553D7E1007DC379 /* SHKSharers.plist in Resources */,
-				48D76B9617095F48000E123F /* RRConnect.bundle in Resources */,
-				48D76B9717095F50000E123F /* SinaWeibo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4370,6 +4369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D76BDA17097D67000E123F /* SHKRenRen.m in Sources */,
 				7AE8DC7D165B549B004D99D2 /* DummyLibFile.m in Sources */,
 				48D76B3F17095E94000E123F /* ROError.m in Sources */,
 				48D76B4117095E94000E123F /* Renren.m in Sources */,
@@ -4661,40 +4661,40 @@
 			target = 4503EBB8169104470057294C /* Google Plus */;
 			targetProxy = 456BADAE16910966005B3077 /* PBXContainerItemProxy */;
 		};
+		48D76BD517097AB3000E123F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AB5342D1552AADD00171BCE /* Static Library */;
+			targetProxy = 48D76BD417097AB3000E123F /* PBXContainerItemProxy */;
+		};
+		48D76BD717097AB3000E123F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AB5360E1552E26800171BCE /* Resource Bundle */;
+			targetProxy = 48D76BD617097AB3000E123F /* PBXContainerItemProxy */;
+		};
+		48D76BDE17097E7A000E123F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "facebook-ios-sdk";
+			targetProxy = 48D76BDD17097E7A000E123F /* PBXContainerItemProxy */;
+		};
+		48D76BE017097EC3000E123F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA83BAA1705E355009C483A /* Google Plus SDK */;
+			targetProxy = 48D76BDF17097EC3000E123F /* PBXContainerItemProxy */;
+		};
+		48D76BE417097ED8000E123F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AAE8C9D16EB960500429C51 /* Plurk */;
+			targetProxy = 48D76BE317097ED8000E123F /* PBXContainerItemProxy */;
+		};
 		7A203D0E16EB7F5100421995 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A203D0216EB7DA200421995 /* Hatena */;
 			targetProxy = 7A203D0D16EB7F5100421995 /* PBXContainerItemProxy */;
 		};
-		7A28825A1553FF96007DC379 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AB5342D1552AADD00171BCE /* Static Library */;
-			targetProxy = 7A2882591553FF96007DC379 /* PBXContainerItemProxy */;
-		};
-		7A28825C1553FF9A007DC379 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AB5360E1552E26800171BCE /* Resource Bundle */;
-			targetProxy = 7A28825B1553FF9A007DC379 /* PBXContainerItemProxy */;
-		};
 		7A49DBC616BC199F004B7E78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A49DBBB16BC193E004B7E78 /* Readability */;
 			targetProxy = 7A49DBC516BC199F004B7E78 /* PBXContainerItemProxy */;
-		};
-		7AA83BFC1705E4FF009C483A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AA83BAA1705E355009C483A /* Google Plus SDK */;
-			targetProxy = 7AA83BFB1705E4FF009C483A /* PBXContainerItemProxy */;
-		};
-		7AA83C1E1705E8FC009C483A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "facebook-ios-sdk";
-			targetProxy = 7AA83C1D1705E8FC009C483A /* PBXContainerItemProxy */;
-		};
-		7AAE8CA816EB964900429C51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AAE8C9D16EB960500429C51 /* Plurk */;
-			targetProxy = 7AAE8CA716EB964900429C51 /* PBXContainerItemProxy */;
 		};
 		7AC28ECC165A1EE7006D7441 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

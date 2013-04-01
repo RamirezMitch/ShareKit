@@ -114,22 +114,22 @@ static SHKRenRen *sharedRenRen = nil;
 
 - (void)show
 {
-    if (item.shareType == SHKShareTypeURL)
+    if (self.item.shareType == SHKShareTypeURL)
 	{
-        [item setCustomValue:[item.URL.absoluteString stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]  
+        [self.item setCustomValue:[self.item.URL.absoluteString stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]  
                       forKey:@"status"];
         
 		[self showRenRenForm];
 	}
     
-    else if (item.shareType == SHKShareTypeImage)
+    else if (self.item.shareType == SHKShareTypeImage)
 	{
 		[self showRenRenPublishPhotoDialog];
 	}
 	
-	else if (item.shareType == SHKShareTypeText)
+	else if (self.item.shareType == SHKShareTypeText)
 	{
-        [item setCustomValue:item.text forKey:@"status"];
+        [self.item setCustomValue:self.item.text forKey:@"status"];
 		[self showRenRenForm];
 	}
 }
@@ -140,9 +140,9 @@ static SHKRenRen *sharedRenRen = nil;
                                                                                                   bundle:nil 
                                                                                                 delegate:self];	
 	
-	rootView.text = [item customValueForKey:@"status"];
+	rootView.text = [self.item customValueForKey:@"status"];
 	rootView.maxTextLength = 140;
-	rootView.image = item.image;
+	rootView.image = self.item.image;
 	rootView.imageTextLength = 25;
 	
 	self.navigationBar.tintColor = SHKCONFIG_WITH_ARGUMENT(barTintForView:,self);
@@ -155,14 +155,14 @@ static SHKRenRen *sharedRenRen = nil;
 
 - (void)sendForm:(SHKFormControllerLargeTextField *)form
 {	
-	[item setCustomValue:form.textView.text forKey:@"status"];
+	[self.item setCustomValue:form.textView.text forKey:@"status"];
 	[self tryToSend];
 }
 
 - (void)showRenRenPublishPhotoDialog
 {
-    [_renren publishPhotoSimplyWithImage:item.image  
-                                     caption:item.title];
+    [_renren publishPhotoSimplyWithImage:self.item.image  
+                                     caption:self.item.title];
 }
 
 
@@ -175,7 +175,7 @@ static SHKRenRen *sharedRenRen = nil;
 		return YES;
 	}
 	
-	NSString *status = [item customValueForKey:@"status"];
+	NSString *status = [self.item customValueForKey:@"status"];
 	return status != nil;
 }
 
@@ -184,7 +184,7 @@ static SHKRenRen *sharedRenRen = nil;
 	BOOL result = NO;
 	
 	BOOL isValid = [self validateItem];    
-	NSString *status = [item customValueForKey:@"status"];
+	NSString *status = [self.item customValueForKey:@"status"];
 	
 	if (isValid && status.length <= 140) {
 		result = YES;
@@ -200,7 +200,7 @@ static SHKRenRen *sharedRenRen = nil;
 	
 	else
 	{	
-		if (item.shareType == SHKShareTypeImage) 
+		if (self.item.shareType == SHKShareTypeImage) 
         {
 			[self showRenRenPublishPhotoDialog];
 		} 
@@ -208,7 +208,7 @@ static SHKRenRen *sharedRenRen = nil;
         {
 			NSMutableDictionary *params = [NSMutableDictionary dictionaryWithCapacity:10];
             [params setObject:@"status.set" forKey:@"method"];
-            [params setObject:[item customValueForKey:@"status"] forKey:@"status"];
+            [params setObject:[self.item customValueForKey:@"status"] forKey:@"status"];
             [_renren requestWithParams:params andDelegate:self];
 		}
 		

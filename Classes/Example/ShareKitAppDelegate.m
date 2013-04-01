@@ -13,9 +13,10 @@
 #import "SHKGooglePlus.h"
 #import "SHKReadItLater.h"
 #import "SHKFacebook.h"
-#import "EvernoteSDK.h"
+//#import "EvernoteSDK.h"
 #import "SHKConfiguration.h"
 #import "ShareKitDemoConfigurator.h"
+#import "SHKSinaWeibo.h"
 
 @implementation ShareKitAppDelegate
 
@@ -52,7 +53,7 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
 	[SHKFacebook handleDidBecomeActive];
-    [[EvernoteSession sharedSession] handleDidBecomeActive];
+   // [[EvernoteSession sharedSession] handleDidBecomeActive];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application 
@@ -74,9 +75,13 @@
         return [SHKGooglePlus handleURL:url sourceApplication:sourceApplication annotation:annotation];
    /* } else if ([scheme hasPrefix:[NSString stringWithFormat:@"db-%@", SHKCONFIG(dropboxAppKey)]]) {
         return [SHKDropbox handleOpenURL:url];*/
-    } else if ([[NSString stringWithFormat:@"en-%@", [[EvernoteSession sharedSession] consumerKey]] isEqualToString:[url scheme]]) {
+    } else if ([scheme hasPrefix:[NSString stringWithFormat:@"sinaweibosso.%@", SHKCONFIG(sinaWeiboConsumerKey)]]) {
+        return [SHKSinaWeibo handleOpenURL:url];
+    } else if ([scheme isEqualToString:@"com.yourcompany.sharekitdemo"]) {
+        return [SHKGooglePlus handleURL:url sourceApplication:sourceApplication annotation:annotation];
+    }/*else if ([[NSString stringWithFormat:@"en-%@", [[EvernoteSession sharedSession] consumerKey]] isEqualToString:[url scheme]]) {
         return [[EvernoteSession sharedSession] canHandleOpenURL:url];
-    }
+    }*/
     
     return YES;
 }
