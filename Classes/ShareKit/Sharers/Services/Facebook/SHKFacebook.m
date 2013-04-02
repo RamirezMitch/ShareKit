@@ -385,14 +385,14 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
                                                              
                                                              } else {
                                                                  
-                                                                 UIAlertView *alertView = [[UIAlertView alloc]
+                                                                /* UIAlertView *alertView = [[UIAlertView alloc]
                                                                                            initWithTitle:@"Error"
                                                                                            message:error.localizedDescription
                                                                                            delegate:nil
                                                                                            cancelButtonTitle:@"OK"
                                                                                            otherButtonTitles:nil];
                                                                  [alertView show];
-                                                                 [alertView release];
+                                                                 [alertView release];*/
                                                                  
                                                                  self.pendingAction = SHKPendingShare;	// flip back to here so they can cancel
                                                                  [self tryPendingAction];
@@ -608,14 +608,14 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
 														 [[SHKActivityIndicator currentIndicator] hide];
 														 requestingPermisSHKFacebook = nil;
 														 if (error) {
-															 UIAlertView *alertView = [[UIAlertView alloc]
+															 /*UIAlertView *alertView = [[UIAlertView alloc]
 																					   initWithTitle:@"Error"
 																					   message:error.localizedDescription
 																					   delegate:nil
 																					   cancelButtonTitle:@"OK"
 																					   otherButtonTitles:nil];
 															 [alertView show];
-                                                             [alertView release];
+                                                             [alertView release];*/
 															 
 															 [self sendDidCancel];
 														 }else{
