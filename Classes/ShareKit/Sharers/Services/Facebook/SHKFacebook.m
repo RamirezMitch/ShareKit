@@ -123,7 +123,7 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
 		if (allowLoginUI) [[SHKActivityIndicator currentIndicator] displayActivity:SHKLocalizedString(@"Logging In...")];
         
         [FBSession setActiveSession:session];
-        [session openWithBehavior:FBSessionLoginBehaviorUseSystemAccountIfPresent
+        [session openWithBehavior:FBSessionLoginBehaviorWithNoFallbackToWebView
 				completionHandler:^(FBSession *session, FBSessionState state, NSError *error) {
 					if (allowLoginUI) [[SHKActivityIndicator currentIndicator] hide];
 					[self sessionStateChanged:session state:state error:error];
@@ -173,7 +173,7 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
     if (error) {
 		[FBSession.activeSession closeAndClearTokenInformation];
         
-        if(error.code==2 || error.code==5){
+        /*if(error.code==2 || error.code==5){
             ACAccountStore *accountStore = [[ACAccountStore alloc] init];
             ACAccountType *facebookAccountType = [accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierFacebook];
             NSArray *accounts = [accountStore accountsWithAccountType:facebookAccountType];
@@ -188,7 +188,7 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
                 [alertView release];
             }
             
-        }else{
+        }else{*/
             UIAlertView *alertView = [[UIAlertView alloc]
                                       initWithTitle:@"Error"
                                       message:error.localizedDescription
@@ -197,7 +197,7 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
                                       otherButtonTitles:nil];
             [alertView show];
             [alertView release];
-        }
+        //}
     }
 	if (authingSHKFacebook == self) {
 		authingSHKFacebook = nil;
@@ -385,14 +385,14 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
                                                              
                                                              } else {
                                                                  
-                                                                /* UIAlertView *alertView = [[UIAlertView alloc]
+                                                                UIAlertView *alertView = [[UIAlertView alloc]
                                                                                            initWithTitle:@"Error"
                                                                                            message:error.localizedDescription
                                                                                            delegate:nil
                                                                                            cancelButtonTitle:@"OK"
                                                                                            otherButtonTitles:nil];
                                                                  [alertView show];
-                                                                 [alertView release];*/
+                                                                 [alertView release];
                                                                  
                                                                  self.pendingAction = SHKPendingShare;	// flip back to here so they can cancel
                                                                  [self tryPendingAction];
@@ -608,14 +608,14 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
 														 [[SHKActivityIndicator currentIndicator] hide];
 														 requestingPermisSHKFacebook = nil;
 														 if (error) {
-															 /*UIAlertView *alertView = [[UIAlertView alloc]
+															 UIAlertView *alertView = [[UIAlertView alloc]
 																					   initWithTitle:@"Error"
 																					   message:error.localizedDescription
 																					   delegate:nil
 																					   cancelButtonTitle:@"OK"
 																					   otherButtonTitles:nil];
 															 [alertView show];
-                                                             [alertView release];*/
+                                                             [alertView release];
 															 
 															 [self sendDidCancel];
 														 }else{
